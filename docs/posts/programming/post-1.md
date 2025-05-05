@@ -1,9 +1,17 @@
 ---
-title: "My first programming post"
+title: "My First Programming Tip"
 date: 2025-05-05
-author: Bala
-tags:
-    - pyenv
+category: programming
+description: "Some insights on debugging with Python"
 ---
 
-# This is my first programming post
+# Debugging with Python
+
+Debugging is a crucial skill in programming. This post shares some practical tips.
+
+## 1. Use Print Statements Wisely
+
+Avoid this:
+
+```python
+print("It broke!")

@@ -8,6 +8,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
+    - navigation.sticky
+    - navigation.path
     - toc.integrate
   palette:
     - scheme: default
@@ -26,7 +28,7 @@ theme:
 nav:
   - Home: index.md
   - Programming: programming/index.md
-  - Books: life/index.md
+  - Life: life/index.md
   - About: about.md
 
 plugins:
@@ -39,11 +41,16 @@ plugins:
         - name: programming
           dirs: 
             - posts/programming 
-          index: programming/index.md     
+          size: 5  
+          theme:
+            name: card
         - name: life
           dirs: 
             - posts/life
-          index: life/index.md 
+          size: 5
+          theme:
+            name: card
+
 
 
       features:
@@ -85,3 +92,6 @@ markdown_extensions:
   - attr_list
   - toc:
       permalink: true
+
+extra_css:
+  - assets/styles.css
