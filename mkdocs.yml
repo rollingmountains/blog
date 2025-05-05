@@ -1,6 +1,6 @@
 site_name: Everyday Blog
 site_url: https://rollingmountains.github.io/blog/
-repo_url: https://github.com/rollingmountains/blog
+# repo_url: https://github.com/rollingmountains/blog
 
 
 theme:
@@ -30,8 +30,11 @@ nav:
   - About: about.md
 
 plugins:
-  - blog:
-      post_dir: 'posts'
+  - blogging:
+      dirs: 
+      - posts
+      features:
+        tag: {}
       # post_excerpt: 'optional'
       # meta: true
       # post_url_date_prefix: false
@@ -43,7 +46,7 @@ plugins:
       # categories_slugify: true
       # categories_case_sensitive: false
       # Add this to sort posts by date
-      blog_sort_default: desc
+      # blog_sort_default: desc
   - search
   - minify:
       minify_html: true
@@ -51,7 +54,7 @@ plugins:
       fallback_to_build_date: true
       exclude:
         - blog/archive/.*
-  - macros
+  # - macros
 
 # extra:
   # social:
