@@ -25,8 +25,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Programming: blog/programming/index.md
-  - Books: blog/life/index.md
+  - Programming: programming/index.md
+  - Books: life/index.md
   - About: about.md
 
 plugins:
@@ -39,11 +39,11 @@ plugins:
         - name: programming
           dirs: 
             - posts/programming 
-          index: blog/programming/index.md     
+          index: programming/index.md     
         - name: life
           dirs: 
             - posts/life
-          index: blog/programming/index.md 
+          index: life/index.md 
 
 
       features:
