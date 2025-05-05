@@ -1,0 +1,11 @@
+.DS_Store
+# MkDocs build output
+site/          # Generated HTML files (local builds)
+.cache/        # MkDocs cache
+
+# Python/Dependency files
+__pycache__/
+*.py[cod]
+venv/          # Virtual environment (if used)
+env/
+.python-version
