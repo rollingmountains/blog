@@ -22,14 +22,23 @@ theme:
       primary: indigo
       accent: indigo
 
+nav:
+  - Home: index.md
+  - About: about.md
+  - Programming:
+      - Overview: programming/index.md
+      - Posts: programming/
+  - Books:
+      - Overview: books/index.md
+      - Reviews: books/
+
 plugins:
   - blog:
-      post_dir: 
-      - 'books'
-      - 'programming'
+      post_dir: 'posts'
+      post_excerpts: true
       # meta: false
       # post_url_date_prefix: false
-      # post_excerpt: 'optional'
+      
       # post_excerpt_separator: '<!-- more -->'
       # post_exclude: []
   - search
