@@ -1,3 +1,3 @@
 # Programming Home Page
 
-{{ blog_content }}
+{{ blog_content programming }}
