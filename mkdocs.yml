@@ -4,7 +4,7 @@ site_url: https://rollingmountains.github.io/blog/
 
 
 theme:
-  name: mkdocs
+  name: material
   features:
     # - navigation.tabs
     - navigation.top
