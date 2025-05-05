@@ -1,5 +1,5 @@
 # Welcome to My Blog
 
-This is my awesome blog built with Material for MkDocs.
+This is a journal covering essays on life, programming, and ordinary life.
 
 ## Recent Posts
