@@ -34,17 +34,16 @@ plugins:
   # {{ blog_content }}
       dirs: 
       - posts
-  # {{ blog_content programming }}
+  # {{ blog_content <category name> }}
       categories:
         - name: programming
           dirs: 
-            - programming
-
-  # {{ blog_content life }}
-      categories:
+            - posts/programming 
+          index: blog/programming/index.md     
         - name: life
           dirs: 
-            - life
+            - posts/life
+          index: blog/programming/index.md 
 
 
       features:
