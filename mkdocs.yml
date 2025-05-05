@@ -35,7 +35,7 @@ nav:
 plugins:
   - blog:
       post_dir: 'posts'
-      post_excerpts: true
+      post_excerpt: true
       # meta: false
       # post_url_date_prefix: false
       
