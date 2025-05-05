@@ -24,7 +24,9 @@ theme:
 
 plugins:
   - blog:
-      post_dir: 'articles'
+      post_dir: 
+      - 'books'
+      - 'programming'
       # meta: false
       # post_url_date_prefix: false
       # post_excerpt: 'optional'
