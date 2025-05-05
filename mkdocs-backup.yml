@@ -31,19 +31,12 @@ nav:
 
 plugins:
   - blogging:
-      post_dir: posts
-      post_excerpt: 'optional'
-      meta: true
-      post_url_date_prefix: false
-      post_excerpt_separator: '<!-- more -->'
-      post_exclude: []
-      locale: en
-      blog_toc: true
-      categories_toc: true
-      categories_slugify: true
-      categories_case_sensitive: false
-      # Add this to sort posts by date
-      blog_sort_default: desc
+      post_dir: 'posts'
+      # post_excerpt: 'optional'
+      # meta: false
+      # post_url_date_prefix: false
+      # post_excerpt_separator: '<!-- more -->'
+      # post_exclude: []
   - search
   - minify:
       minify_html: true
@@ -51,7 +44,8 @@ plugins:
       fallback_to_build_date: true
       exclude:
         - blog/archive/.*
-  - macros
+        - blog/category/.*
+        - blog/.*\.md
 
 # extra:
   # social:
