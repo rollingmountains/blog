@@ -7,8 +7,9 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.indexes
-    - navigation.sticky
+    - navigation.top
+    # - navigation.indexes
+    # - navigation.sticky
     - navigation.path
     - toc.integrate
   palette:
