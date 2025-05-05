@@ -30,18 +30,18 @@ nav:
   - About: about.md
 
 plugins:
-  - blogging:
-      post_dir: posts
-      post_excerpt: 'optional'
-      meta: true
-      post_url_date_prefix: false
-      post_excerpt_separator: '<!-- more -->'
-      post_exclude: []
-      locale: en
-      blog_toc: true
-      categories_toc: true
-      categories_slugify: true
-      categories_case_sensitive: false
+  - blog:
+      post_dir: 'posts'
+      # post_excerpt: 'optional'
+      # meta: true
+      # post_url_date_prefix: false
+      # post_excerpt_separator: '<!-- more -->'
+      # post_exclude: []
+      # locale: en
+      # blog_toc: true
+      # categories_toc: true
+      # categories_slugify: true
+      # categories_case_sensitive: false
       # Add this to sort posts by date
       blog_sort_default: desc
   - search
