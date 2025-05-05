@@ -25,17 +25,13 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-  - Programming:
-      - Overview: programming/index.md
-      - Posts: programming/
-  - Books:
-      - Overview: books/index.md
-      - Reviews: books/
+  - Programming: programming/index.md
+  - Books: books/index.md
 
 plugins:
   - blog:
       post_dir: 'posts'
-      post_excerpt: true
+      post_excerpt: 'optional'
       # meta: false
       # post_url_date_prefix: false
       
