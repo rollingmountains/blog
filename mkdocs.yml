@@ -26,13 +26,27 @@ theme:
 nav:
   - Home: index.md
   - Programming: blog/programming/index.md
-  - Books: blog/books/index.md
+  - Books: blog/life/index.md
   - About: about.md
 
 plugins:
   - blogging:
+  # {{ blog_content }}
       dirs: 
       - posts
+  # {{ blog_content programming }}
+      categories:
+        - name: programming
+          dirs: 
+            - programming
+
+  # {{ blog_content life }}
+      categories:
+        - name: life
+          dirs: 
+            - life
+
+
       features:
         tag: {}
       # post_excerpt: 'optional'
