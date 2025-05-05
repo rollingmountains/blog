@@ -29,12 +29,11 @@ nav:
   - Books: books/index.md
 
 plugins:
-  - blog:
+  - blogging:
       post_dir: 'posts'
       post_excerpt: 'optional'
       # meta: false
       # post_url_date_prefix: false
-      
       # post_excerpt_separator: '<!-- more -->'
       # post_exclude: []
   - search
