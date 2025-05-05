@@ -47,11 +47,11 @@ plugins:
         - blog/.*\.md
 
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourusername
+  # social:
+  #   - icon: fontawesome/brands/github
+  #     link: https://github.com/yourusername
+  #   - icon: fontawesome/brands/twitter
+  #     link: https://twitter.com/yourusername
 
 markdown_extensions:
   - admonition
@@ -60,6 +60,5 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist
   - attr_list
-  - jinja2
   - toc:
       permalink: true
