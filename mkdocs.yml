@@ -60,5 +60,6 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist
   - attr_list
+  - jinja2
   - toc:
       permalink: true
