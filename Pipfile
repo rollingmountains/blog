@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 mkdocs-material = "*"
-mkdocs-blog-plugin = "*"
 mkdocs-minify-plugin = "*"
 mkdocs-git-revision-date-localized-plugin = "*"
+mkdocs-blogging-plugin = "*"
 
 [dev-packages]
 
