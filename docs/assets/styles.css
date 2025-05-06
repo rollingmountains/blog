@@ -43,3 +43,16 @@ a[href*="/posts/"] .blog-override-post,
 a[href*="/posts/"] {
     cursor: pointer;
 }
+
+/* Center the navigation tabs */
+.blog-tabs-nav {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+.blog-tabs-list {
+  display: inline-flex !important;
+  margin: 0 auto !important;
+  padding-left: 0 !important;
+}

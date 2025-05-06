@@ -6,11 +6,11 @@ site_url: https://rollingmountains.github.io/blog/
 theme:
   name: material
   features:
-    - navigation.path
-    - navigation.path.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.section
     - navigation.top
-    # - navigation.tabs
+    # - navigation.path
     # - navigation.indexes
 
     - toc.integrate
