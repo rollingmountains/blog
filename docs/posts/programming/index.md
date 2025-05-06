@@ -1,2 +1,2 @@
 # Programming contents
-<a href="/blog/category/python/">Python</a>
+<a href="python/">Python</a>
