@@ -44,15 +44,39 @@ a[href*="/posts/"] {
     cursor: pointer;
 }
 
-/* Center the navigation tabs */
-.blog-tabs-nav {
-  display: flex !important;
-  justify-content: center !important;
-  margin: 0 auto !important;
+/* Center the tabs container without causing overflow */
+.md-tabs {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-.blog-tabs-list {
-  display: inline-flex !important;
-  margin: 0 auto !important;
-  padding-left: 0 !important;
+/* Reset the grid container */
+.md-tabs > .md-grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 1rem; /* Add some padding instead of margin */
 }
+
+/* Center the tabs list */
+.md-tabs__list {
+  display: flex;
+  justify-content: center;
+  width: auto; /* Let content determine width */
+  margin: 0 auto;
+  padding-left: 0;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Tab item styling */
+.md-tabs__item {
+  margin: 0 0.25rem; /* Reduced spacing between tabs */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Remove vertical scroll caused by tabs */
+html {
+  overflow-y: auto; /* Standard scroll behavior */
+}
+
