@@ -24,7 +24,7 @@ theme:
 nav:
   - Home: index.md
   - Programming: 
-    - category/programming/index.md
+    - posts/programming/index.md
     - Python: category/python/index.md
   - Life: 
     - category/life/index.md
