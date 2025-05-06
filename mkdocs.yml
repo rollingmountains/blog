@@ -25,8 +25,8 @@ nav:
   - Home: index.md
   - Programming: category/programming/index.md
   - Life: 
-    # - sub-indexs-home/life/index.md
-    - Mediation: category/meditation/index.md
+    - category/life/index.md
+    - Philosophy: category/philosophy/index.md
   - About: about.md
 
 plugins:
@@ -48,9 +48,9 @@ plugins:
           size: 5
           theme:
             name: card
-        - name: meditation
+        - name: philosophy
           dirs: 
-            - posts/meditation
+            - posts/philosophy
           size: 5
           theme:
             name: card

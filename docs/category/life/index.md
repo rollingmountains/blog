@@ -1,5 +1,2 @@
-# Life Home Page
-
-{{ blog_content life }}
-
-{{ blog_content meditation }}
+# Welcome to life section
+<a href="/blog/category/meditation/">Meditation</a>
