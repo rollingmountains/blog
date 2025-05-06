@@ -24,11 +24,11 @@ theme:
 nav:
   - Home: index.md
   - Programming: 
-    - posts/programming/index.md
-    - Python: category/python/index.md
+    # - category/programming-index.md
+    - Python: category/python-index.md
   - Life: 
-    - category/life/index.md
-    - Philosophy: category/philosophy/index.md
+    # - category/life-index.md
+    - Philosophy: category/philosophy-index.md
   - About: about.md
 
 plugins:
@@ -41,12 +41,18 @@ plugins:
         - name: programming
           dirs: 
             - posts/programming 
+          exclude:
+            - '**/index.md'
           size: 5  
           theme:
             name: card
         - name: python
           dirs: 
-            - posts/python 
+            - posts/programming/python/
+          exclude:
+            - '**/index.md'
+          include:
+            - 'post-*.md'
           size: 5  
           theme:
             name: card
