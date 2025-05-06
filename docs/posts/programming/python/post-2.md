@@ -1,5 +1,5 @@
 ---
-title: "Post 1"
+title: "Post 2"
 date: 2025-05-06
 tags:
   - tag1
@@ -14,5 +14,4 @@ hide:
 # Your Post Title Here
 
 Your blog content starts here...
-
 

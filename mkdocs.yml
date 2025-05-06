@@ -6,13 +6,15 @@ site_url: https://rollingmountains.github.io/blog/
 theme:
   name: material
   features:
-    # - navigation.tabs
+    - navigation.path
+    - navigation.path.sticky
+    - navigation.section
     - navigation.top
-    - navigation.indexes
-    # - navigation.sticky
-    # - navigation.path
+    # - navigation.tabs
+    # - navigation.indexes
+
     - toc.integrate
-    - toc.follow
+    # - toc.follow
   palette:
     - scheme: default
       primary: indigo
@@ -32,6 +34,7 @@ nav:
   - About: about.md
 
 plugins:
+
   - blogging:
   # {{ blog_content }}
       dirs: 
@@ -80,6 +83,7 @@ plugins:
       # Add this to sort posts by date
       # blog_sort_default: desc
   - search
+ 
   - minify:
       minify_html: true
   - git-revision-date-localized:
@@ -107,3 +111,6 @@ markdown_extensions:
 
 extra_css:
   - assets/styles.css
+
+# extra_javascript:
+#   - js/script.js
