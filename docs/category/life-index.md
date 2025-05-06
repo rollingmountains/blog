@@ -1,2 +1,2 @@
 # Life contents
-<a href="/blog/category/philosophy/">Philosophy</a>
+<a href="/blog/category/philosophy-index/">Philosophy</a>

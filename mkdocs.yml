@@ -1,4 +1,4 @@
-site_name: The Ordinary
+site_name: Stillness
 site_url: https://rollingmountains.github.io/blog/
 # repo_url: https://github.com/rollingmountains/blog
 
@@ -41,18 +41,12 @@ plugins:
         - name: programming
           dirs: 
             - posts/programming 
-          exclude:
-            - '**/index.md'
           size: 5  
           theme:
             name: card
         - name: python
           dirs: 
             - posts/programming/python/
-          exclude:
-            - '**/index.md'
-          include:
-            - 'post-*.md'
           size: 5  
           theme:
             name: card
