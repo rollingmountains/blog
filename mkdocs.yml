@@ -23,8 +23,10 @@ theme:
 
 nav:
   - Home: index.md
-  - Programming: programming/index.md
-  - Life: life/index.md
+  - Programming: category/programming/index.md
+  - Life: 
+    # - sub-indexs-home/life/index.md
+    - Mediation: category/meditation/index.md
   - About: about.md
 
 plugins:
@@ -46,7 +48,13 @@ plugins:
           size: 5
           theme:
             name: card
-
+        - name: meditation
+          dirs: 
+            - posts/meditation
+          size: 5
+          theme:
+            name: card
+        
 
 
       features:
