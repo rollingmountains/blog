@@ -1,2 +1,2 @@
-# Welcome to life section
-<a href="/blog/category/meditation/">Meditation</a>
+# Life contents
+<a href="/blog/category/philosophy/">Philosophy</a>

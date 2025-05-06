@@ -1,3 +1,2 @@
-# Programming Home Page
-
-{{ blog_content programming }}
+# Programming contents
+<a href="/blog/category/python/">Python</a>

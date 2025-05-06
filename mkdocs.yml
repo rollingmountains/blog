@@ -23,7 +23,9 @@ theme:
 
 nav:
   - Home: index.md
-  - Programming: category/programming/index.md
+  - Programming: 
+    - category/programming/index.md
+    - Python: category/python/index.md
   - Life: 
     - category/life/index.md
     - Philosophy: category/philosophy/index.md
@@ -39,6 +41,12 @@ plugins:
         - name: programming
           dirs: 
             - posts/programming 
+          size: 5  
+          theme:
+            name: card
+        - name: python
+          dirs: 
+            - posts/python 
           size: 5  
           theme:
             name: card
