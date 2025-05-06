@@ -5,6 +5,7 @@ site_url: https://rollingmountains.github.io/blog/
 
 theme:
   name: material
+  logo: assets/images/kuromi.svg
   features:
     # - navigation.tabs
     - navigation.top
