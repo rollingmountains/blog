@@ -16,3 +16,7 @@ hide:
 Your blog content starts here...
 
 
+[Previous](post-2.md){: .nav-link} [Next](post-4.md){: .nav-link}
+{: style="text-align: center;"}
+
+

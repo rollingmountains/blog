@@ -80,3 +80,12 @@ html {
   overflow-y: auto; /* Standard scroll behavior */
 }
 
+/* center align next and previous button*/
+.center {
+  display: block;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 10px; /* Adds spacing between links */
+}
