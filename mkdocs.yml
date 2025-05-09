@@ -27,15 +27,16 @@ nav:
   - Home: index.md
   - Programming: 
     # - category/programming-index.md
-    - Python: category/python-index.md
+    - Python: category/programming/python-index.md
   - Life: 
     # - category/life-index.md
-    - Philosophy: category/philosophy-index.md
+    - Philosophy: category/life/philosophy-index.md
   - About: about.md
 
 plugins:
 
   - blogging:
+      post_navigation: true
   # {{ blog_content }}
       dirs: 
       - posts
