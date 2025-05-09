@@ -1,0 +1,91 @@
+/* Import a custom font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Apply font to the whole site */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+/* Lists */
+ul, ol {
+  font-size: 16px;
+}
+
+/* Code blocks (inline and block) */
+code, pre {
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+}
+
+/* Tables */
+table {
+  font-size: 16px;
+}
+
+/* Force pointer cursor on all blog post cards */
+a[href*="/posts/"] .blog-override-post,
+a[href*="/posts/"] {
+    cursor: pointer;
+}
+
+/* Center the tabs container without causing overflow */
+.md-tabs {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Reset the grid container */
+.md-tabs > .md-grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 1rem; /* Add some padding instead of margin */
+}
+
+/* Center the tabs list */
+.md-tabs__list {
+  display: flex;
+  justify-content: center;
+  width: auto; /* Let content determine width */
+  margin: 0 auto;
+  padding-left: 0;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Tab item styling */
+.md-tabs__item {
+  margin: 0 0.25rem; /* Reduced spacing between tabs */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* Remove vertical scroll caused by tabs */
+html {
+  overflow-y: auto; /* Standard scroll behavior */
+}
+
+/* center align next and previous button*/
+.center {
+  display: block;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 10px; /* Adds spacing between links */
+}

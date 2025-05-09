@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://rollingmountains.github.io/blog/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/about/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/category/life/life-index/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/category/life/philosophy-index/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/category/programming/programming-index/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/category/programming/python-index/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+    <url>
+         <loc>https://rollingmountains.github.io/blog/posts/programming/python/post-1/</loc>
+         <lastmod>2025-05-09</lastmod>
+    </url>
+</urlset>
